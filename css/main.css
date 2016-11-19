@@ -47,11 +47,27 @@ img {
   margin-top: 0;
 }
 
+/* .card-img {
+  display: block;
+  margin: auto;
+}
+} */
+
 @media only screen and (min-width: 25em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   .card-img {
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin-right: .75em;
+    position: absolute;
+  }
+
+  .card-body {
+    margin-left: 4rem;
   }
 }
 
@@ -95,4 +111,12 @@ img {
     position: relative;
     left: 10rem;
   }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
